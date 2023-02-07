@@ -20,7 +20,7 @@ export class User {
         this.render()
 
     }
-////
+//////
     render() {
         document.querySelector("main").insertAdjacentHTML("beforeend", this.element)
 
