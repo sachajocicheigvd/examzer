@@ -618,6 +618,7 @@ class User {
          </div>`;
         this.render();
     }
+    //
     render() {
         document.querySelector("main").insertAdjacentHTML("beforeend", this.element);
     }
